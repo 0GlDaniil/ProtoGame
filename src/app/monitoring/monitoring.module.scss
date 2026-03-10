@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  grid-template-rows: 1fr;
+  max-width: 1600px;
+  padding-inline: 20px;
+  margin-inline: auto;
+}
